@@ -22,7 +22,7 @@ func main() {
 		TaskQueue: "hello-world",
 	}
 
-	we, err := c.ExecuteWorkflow(context.Background(), workflowOptions, helloworld.Workflow, "Temporal")
+	we, err := c.ExecuteWorkflow(context.Background(), workflowOptions, helloworld.Workflow, "Mike")
 	if err != nil {
 		log.Fatalln("Unable to execute workflow", err)
 	}
