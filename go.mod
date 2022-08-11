@@ -1,4 +1,5 @@
-module github.com/temporalio/samples-go
+//module github.com/temporalio/samples-go
+module github.com/ISG-CTIO/samples-go
 
 go 1.16
 
@@ -6,6 +7,7 @@ replace github.com/cactus/go-statsd-client => github.com/cactus/go-statsd-client
 
 require (
 	github.com/HdrHistogram/hdrhistogram-go v1.1.2 // indirect
+	github.com/febrianrendak/go-ansible v0.4.1
 	github.com/golang/mock v1.6.0
 	github.com/golang/snappy v0.0.4
 	github.com/google/uuid v1.3.0
